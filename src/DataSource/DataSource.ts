@@ -138,6 +138,13 @@ export const services: IService[] = [
         description: 'As a member of the organizing committee, implemented live streaming for 16 parallel tracks at the CHI conference.'
     },
     {
+        startYear: 2013,
+        endYear: 2018,
+        org: 'Digitized',
+        title: 'Host & Activity Leader',
+        description: 'Hosted univeristy tours and led programming activities for high school students attending \'Digitized\', our annual department outreach day.'
+    },
+    {
         startYear: 2017,
         endYear: 2018,
         org: 'Industry-Academic Partnerships Working Committee',
@@ -151,7 +158,13 @@ export const services: IService[] = [
         title: 'Student Volunteer',
         description: 'Worked with a small team of SVs to facilitate the IMX conference.'
     },
-
+    {
+        startYear: 2013,
+        endYear: 2014,
+        org: 'Sci-Fi Kids Summer Camps',
+        title: 'Lab Host',
+        description: 'Hosted tours of the HCI lab for children attending science summer camps. Explained and demonstrated research games and software.'
+    }
 ]
 
 export const projects: Project[] = [

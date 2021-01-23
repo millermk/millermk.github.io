@@ -36,7 +36,7 @@ export default function Overview() {
                         <CardImg top width="100%" src={serviceImage} alt="Card image cap" />
                         <CardBody>
                             <CardTitle tag="h5">Service</CardTitle>
-                            <CardText>Research projects past and present.</CardText>
+                            <CardText>Conference, university, and community involvement.</CardText>
                             <Link to="/service">See more</Link>
                         </CardBody>
                     </Card>
