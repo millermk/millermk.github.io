@@ -8,6 +8,8 @@ export default function NavBar() {
   
     const toggle = () => setIsOpen(!isOpen);
 
+    const close = () => setIsOpen(false);
+
     return (
         <Container fluid className="bg-light">
             <Container>
@@ -16,10 +18,10 @@ export default function NavBar() {
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav navbar>
-                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" to="/projects">Projects</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" to="/publications">Publications</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" to="/experience">Experience</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" to="/service">Service</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/projects">Projects</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/publications">Publications</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/experience">Experience</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/service">Service</RouterNavLink></NavLink></NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
