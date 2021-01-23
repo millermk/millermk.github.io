@@ -1,0 +1,16 @@
+.header-img {
+    width: 100%;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.link-uncolored, .link-uncolored:link, .link-uncolored:hover {
+    color: inherit;
+}
+
+.link-undecorated, .link-undecorated:link, .link-undecorated:hover {
+    text-decoration: inherit;
+}
