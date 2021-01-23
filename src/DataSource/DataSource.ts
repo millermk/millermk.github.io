@@ -121,7 +121,7 @@ export const services: IService[] = [
         endYear: 2019,
         org: 'CSCW',
         title: 'Student Volunteer',
-        description: ''
+        description: 'Served as a day captain, assisted with registration, and performed other tasks to contribute to a successful conference.'
     },
     {
         startYear: 2019,
@@ -143,7 +143,14 @@ export const services: IService[] = [
         org: 'Industry-Academic Partnerships Working Committee',
         title: 'Member',
         description: 'As a member of the Industry-Academic Partnerships Working Committee, respresented the interests of students and the Computer Science department in developing guidelines for ethical and effective industry partnerships at the University of Saskatchewan.'
-    }
+    },
+    {
+        startYear: 2016,
+        endYear: 2016,
+        org: 'ACM IMX',
+        title: 'Student Volunteer',
+        description: 'Worked with a small team of SVs to facilitate the IMX conference.'
+    },
 
 ]
 
