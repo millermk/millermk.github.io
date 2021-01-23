@@ -11,15 +11,15 @@ export default function NavBar() {
     return (
         <Container fluid className="bg-light">
             <Container>
-                <Navbar className="px-0" color="light" expand="md">
-                    <NavbarBrand className="mr-2"><RouterNavLink className="link-unstyled" to="/">Matthew Miller</RouterNavLink></NavbarBrand>
+                <Navbar className="px-0" color="light" light expand="md">
+                    <NavbarBrand className="mr-2"><RouterNavLink to="/">Matthew Miller</RouterNavLink></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav navbar>
-                            <NavItem><NavLink><RouterNavLink to="/projects">Projects</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink><RouterNavLink to="/publications">Publications</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink><RouterNavLink to="/experience">Experience</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink><RouterNavLink to="/service">Service</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" to="/projects">Projects</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" to="/publications">Publications</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" to="/experience">Experience</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" to="/service">Service</RouterNavLink></NavLink></NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>

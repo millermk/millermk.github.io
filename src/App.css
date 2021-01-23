@@ -14,3 +14,9 @@
 .link-undecorated, .link-undecorated:link, .link-undecorated:hover {
     text-decoration: inherit;
 }
+
+.link-active, .link-active:link, .link-active:hover {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: 500;
+}
