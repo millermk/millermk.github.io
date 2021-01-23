@@ -1,3 +1,4 @@
+import YoutubeEmbed from "../Components/YoutubeEmbed";
 import Experience from "../Models/Experience";
 import Project from "../Models/Project";
 import IPublication from "../Models/Publication";
@@ -145,12 +146,14 @@ export const projects: Project[] = [
         youtubeVideoID: "tlABcwgMrPo"
     },
     {
-        name: "Media Sharing in Video Chat",
-        description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups and asynchronously add media from arbitray URLS, then view the media synchronously during a video call. I'm working to understand how this kind of system can support new and existing relationships."
+        name: "Video Chat with Media Sharing",
+        description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups and asynchronously add media from arbitray URLS, then view the media synchronously during a video call. I'm working to understand how this kind of system can support new and existing relationships.",
+        imageName: 'media-sharing.jpg'
     },
     {
         name: "Feedback in Video Chat",
-        description: "In the project, we studied how seeing one's self during video chats can impact their conversations. Observed effects included changes in individual experience (e.g. increased self-awareness) and conversations (e.g. use of task-focused words). We developed guidance for use of video feedback in multiple contexts."
+        description: "In the project, we studied how seeing one's self during video chats can impact their conversations. Observed effects included changes in individual experience (e.g. increased self-awareness) and conversations (e.g. use of task-focused words). We developed guidance for use of video feedback in multiple contexts.",
+        youtubeVideoID: "DDtGuSJV0Vo"
     },
 ]
 
