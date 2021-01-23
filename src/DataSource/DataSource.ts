@@ -141,7 +141,8 @@ export const services: IService[] = [
 export const projects: Project[] = [
     {
         name: "Social Anxiety & Video Chat",
-        description: "I'm currently working to understand how Social Anxiety impacts people's experiences and conversations in video chat. Our first study in this area revealed that common advice to disable the preview of your own video to reduce anxiety is not actually helpful. In a followup, I plan to explore how other interface changes such as screen-sharing or presentation mode interact with social anxiety in video chats."
+        description: "I'm currently working to understand how Social Anxiety impacts people's experiences and conversations in video chat. Our first study in this area revealed that common advice to disable the preview of your own video to reduce anxiety is not actually helpful. In a followup, I plan to explore how other interface changes such as screen-sharing or presentation mode interact with social anxiety in video chats.",
+        youtubeVideoID: "tlABcwgMrPo"
     },
     {
         name: "Media Sharing in Video Chat",
