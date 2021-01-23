@@ -137,6 +137,14 @@ export const services: IService[] = [
         title: 'Live Streaming Chair',
         description: 'As a member of the organizing committee, implemented live streaming for 16 parallel tracks at the CHI conference.'
     },
+    {
+        startYear: 2017,
+        endYear: 2018,
+        org: 'Industry-Academic Partnerships Working Committee',
+        title: 'Member',
+        description: 'As a member of the Industry-Academic Partnerships Working Committee, respresented the interests of students and the Computer Science department in developing guidelines for ethical and effective industry partnerships at the University of Saskatchewan.'
+    }
+
 ]
 
 export const projects: Project[] = [
