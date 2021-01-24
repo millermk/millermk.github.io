@@ -16,7 +16,7 @@ export default function Overview() {
                         <CardImg top width="100%" src={projectsImage} alt="A person video chatting on a couch with a laptop on her lap" />
                         <CardBody>
                             <CardTitle tag="h5">Projects</CardTitle>
-                            <CardText>Research projects past and present.</CardText>
+                            <CardText>Selected and ongoing research projects.</CardText>
                             <Link to="/projects">See more</Link>
                         </CardBody>
                     </Card>

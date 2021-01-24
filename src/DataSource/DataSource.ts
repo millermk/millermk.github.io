@@ -177,7 +177,7 @@ export const services: IService[] = [
 export const projects: Project[] = [
     {
         name: "Social Anxiety & Video Chat",
-        description: "I'm currently working to understand how Social Anxiety impacts people's experiences and conversations in video chat. Our first study in this area revealed that common advice to disable the preview of your own video to reduce anxiety is not actually helpful. In a follow-up, I plan to explore how other interface changes such as screen-sharing or presentation mode interact with social anxiety in video chats.",
+        description: "I'm currently working to understand how Social Anxiety affects people's experiences and conversations in video chat. Our first study in this area revealed that common advice to disable the preview of your own video to reduce anxiety is not actually helpful. In a follow-up, I plan to explore how other interface changes such as screen-sharing or presentation mode interact with social anxiety in video chats.",
         youtubeVideo: {videoID: "tlABcwgMrPo", title: 'Youtube Video Seeing You, Meeting Me: Video Preview'}
     },
     {
@@ -187,7 +187,7 @@ export const projects: Project[] = [
     },
     {
         name: "Feedback in Video Chat",
-        description: "In the project, we studied how seeing oneself during video chats can impact their conversations. Observed effects included changes in individual experience (e.g., increased self-awareness) and conversations (e.g., use of task-focused words). We developed guidance for use of video feedback in multiple contexts.",
+        description: "In the project, we studied how seeing oneself during video chats can affect their conversations. Observed effects included changes in individual experience (e.g., increased self-awareness) and conversations (e.g., use of task-focused words). We developed guidance for use of video feedback in multiple contexts.",
         youtubeVideo: {videoID: "DDtGuSJV0Vo", title: 'Youtube Video Through the Looking Glass: Video Figure'}
     },
 ]
