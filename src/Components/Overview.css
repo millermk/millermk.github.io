@@ -1,0 +1,8 @@
+.link-download {
+    cursor: pointer;
+    text-decoration: default;
+}
+
+.link-download:hover {
+    text-decoration: underline;
+}

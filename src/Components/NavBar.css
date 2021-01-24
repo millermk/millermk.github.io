@@ -1,0 +1,10 @@
+.nav-link-download {
+    cursor: pointer;
+    text-decoration: default;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-link-download:hover {
+    text-decoration: underline;
+}

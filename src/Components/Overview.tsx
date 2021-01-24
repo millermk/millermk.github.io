@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
+import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText, CardLink } from 'reactstrap';
 
 const publicationsImage = require('../Media/publications.jpg').default;
 const projectsImage = require('../Media/projects.jpg').default;
@@ -48,6 +48,14 @@ export default function Overview() {
                             <CardTitle tag="h5">Experience</CardTitle>
                             <CardText>Teaching and internship experience.</CardText>
                             <Link to="/experience">See more</Link>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col xs="12" className="pb-4">
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h5">My CV</CardTitle>
+                            <CardText>In addition to the information on this site, you can access complete CV as a <a href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>pdf download</a>.</CardText>
                         </CardBody>
                     </Card>
                 </Col>
