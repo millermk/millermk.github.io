@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText, CardLink } from 'reactstrap';
+import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
 
 const publicationsImage = require('../Media/publications.jpg').default;
 const projectsImage = require('../Media/projects.jpg').default;
