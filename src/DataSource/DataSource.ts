@@ -179,7 +179,7 @@ export const projects: Project[] = [
     },
     {
         name: "Feedback in Video Chat",
-        description: "In the project, we studied how seeing one's self during video chats can impact their conversations. Observed effects included changes in individual experience (e.g. increased self-awareness) and conversations (e.g. use of task-focused words). We developed guidance for use of video feedback in multiple contexts.",
+        description: "In the project, we studied how seeing one's self during video chats can impact their conversations. Observed effects included changes in individual experience (e.g., increased self-awareness) and conversations (e.g., use of task-focused words). We developed guidance for use of video feedback in multiple contexts.",
         youtubeVideo: {videoID: "DDtGuSJV0Vo", title: 'Youtube Video Through the Looking Glass: Video Figure'}
     },
 ]
