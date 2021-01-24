@@ -112,9 +112,9 @@ export const publications: IPublication[] = [
 export const services: IService[] = [
     {
         startYear: 2020,
-        org: 'CS-CAN',
-        title: 'Diversity Task-Force Member',
-        description: 'Assist with data collection to dirve increased diversity in Canadian computing and provide consulting about increasing diversity in CS-CAN efforts.'
+        org: 'CS-Can|Info-Can',
+        title: 'EDI Task Force Member',
+        description: 'Assist with data collection to drive increased diversity in Canadian computing and provide consulting about increasing diversity in CS-CAN efforts.'
     },
     {
         startYear: 2018,
@@ -149,14 +149,14 @@ export const services: IService[] = [
         endYear: 2018,
         org: 'Digitized',
         title: 'Host & Activity Leader',
-        description: 'Hosted univeristy tours and led programming activities for high school students attending \'Digitized\', our annual department outreach day.'
+        description: 'Hosted university tours and led programming activities for high school students attending \'Digitized\', our annual department outreach day.'
     },
     {
         startYear: 2017,
         endYear: 2018,
         org: 'Industry-Academic Partnerships Working Committee',
         title: 'Member',
-        description: 'As a member of the Industry-Academic Partnerships Working Committee, respresented the interests of students and the Computer Science department in developing guidelines for ethical and effective industry partnerships at the University of Saskatchewan.'
+        description: 'As a member of the Industry-Academic Partnerships Working Committee, represented the interests of students and the Computer Science department in developing guidelines for ethical and effective industry partnerships at the University of Saskatchewan.'
     },
     {
         startYear: 2016,
@@ -177,17 +177,17 @@ export const services: IService[] = [
 export const projects: Project[] = [
     {
         name: "Social Anxiety & Video Chat",
-        description: "I'm currently working to understand how Social Anxiety impacts people's experiences and conversations in video chat. Our first study in this area revealed that common advice to disable the preview of your own video to reduce anxiety is not actually helpful. In a followup, I plan to explore how other interface changes such as screen-sharing or presentation mode interact with social anxiety in video chats.",
+        description: "I'm currently working to understand how Social Anxiety impacts people's experiences and conversations in video chat. Our first study in this area revealed that common advice to disable the preview of your own video to reduce anxiety is not actually helpful. In a follow-up, I plan to explore how other interface changes such as screen-sharing or presentation mode interact with social anxiety in video chats.",
         youtubeVideo: {videoID: "tlABcwgMrPo", title: 'Youtube Video Seeing You, Meeting Me: Video Preview'}
     },
     {
         name: "Video Chat with Media Sharing",
-        description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups and asynchronously add media from arbitray URLS, then view the media synchronously during a video call. I'm working to understand how this kind of system can support new and existing relationships.",
+        description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups and asynchronously add media from arbitrary URLS, then view the media synchronously during a video call. I'm working to understand how this kind of system can support new and existing relationships.",
         image: {src: 'media-sharing.jpg', alt: 'A screenshot of a video chat system showing three people talking and a YouTube video playing'}
     },
     {
         name: "Feedback in Video Chat",
-        description: "In the project, we studied how seeing one's self during video chats can impact their conversations. Observed effects included changes in individual experience (e.g., increased self-awareness) and conversations (e.g., use of task-focused words). We developed guidance for use of video feedback in multiple contexts.",
+        description: "In the project, we studied how seeing oneself during video chats can impact their conversations. Observed effects included changes in individual experience (e.g., increased self-awareness) and conversations (e.g., use of task-focused words). We developed guidance for use of video feedback in multiple contexts.",
         youtubeVideo: {videoID: "DDtGuSJV0Vo", title: 'Youtube Video Through the Looking Glass: Video Figure'}
     },
 ]
@@ -197,7 +197,7 @@ export const experiences: Experience[] = [
         startYear: 2014,
         org: 'University of Saskatchewan',
         title: 'Teaching Assistant',
-        description: 'Taught labs and provided student support for a variety of courses, including data structures, web devleopment, and assembly language programming.'
+        description: 'Taught labs and provided student support for a variety of courses, including data structures, web development, and assembly language programming.'
     },
     {
         startYear: 2016,
