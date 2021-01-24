@@ -13,6 +13,14 @@ export const publications: IPublication[] = [
         type: 'conf-full'
     },
     {
+        authors: ['Cale J. Passmore', 'Matthew K. Miller', 'Jun Liu', 'Cody J. Phillips', 'Regan L. Mandryk'],
+        year: 2020,
+        title: 'A Cheating Mood: The Emotional and Psychological Benefits of Cheating in Single-Player Games',
+        venue: 'Proceedings of the Annual Symposium on Computer-Human Interaction in Play. Association for Computing Machinery, New York, NY, USA, 58–70',
+        doi: '10.1145/3410404.3414252',
+        type: 'conf-full'
+    },
+    {
         authors: ['Julian Frommel', 'Valentin Sagl', 'Ansgar E. Depping', 'Colby Johanson', 'Matthew K. Miller', 'Regan L. Mandryk'],
         year: 2020,
         title: 'Recognizing Affiliation: Using Behavioural Traces to Predict the Quality of Social Interactions in Online Games',
