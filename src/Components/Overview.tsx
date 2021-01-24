@@ -55,7 +55,7 @@ export default function Overview() {
                     <Card>
                         <CardBody>
                             <CardTitle tag="h5">My CV</CardTitle>
-                            <CardText>In addition to the information on this site, you can access complete CV as a <a href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>pdf download</a>.</CardText>
+                            <CardText>In addition to the information on this site, you can access my complete CV as a <a href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>pdf download</a>.</CardText>
                         </CardBody>
                     </Card>
                 </Col>
