@@ -170,17 +170,17 @@ export const projects: Project[] = [
     {
         name: "Social Anxiety & Video Chat",
         description: "I'm currently working to understand how Social Anxiety impacts people's experiences and conversations in video chat. Our first study in this area revealed that common advice to disable the preview of your own video to reduce anxiety is not actually helpful. In a followup, I plan to explore how other interface changes such as screen-sharing or presentation mode interact with social anxiety in video chats.",
-        youtubeVideoID: "tlABcwgMrPo"
+        youtubeVideo: {videoID: "tlABcwgMrPo", title: 'Youtube Video Seeing You, Meeting Me: Video Preview'}
     },
     {
         name: "Video Chat with Media Sharing",
         description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups and asynchronously add media from arbitray URLS, then view the media synchronously during a video call. I'm working to understand how this kind of system can support new and existing relationships.",
-        imageName: 'media-sharing.jpg'
+        image: {src: 'media-sharing.jpg', alt: 'A screenshot of a video chat system showing three people talking and a YouTube video playing'}
     },
     {
         name: "Feedback in Video Chat",
         description: "In the project, we studied how seeing one's self during video chats can impact their conversations. Observed effects included changes in individual experience (e.g. increased self-awareness) and conversations (e.g. use of task-focused words). We developed guidance for use of video feedback in multiple contexts.",
-        youtubeVideoID: "DDtGuSJV0Vo"
+        youtubeVideo: {videoID: "DDtGuSJV0Vo", title: 'Youtube Video Through the Looking Glass: Video Figure'}
     },
 ]
 

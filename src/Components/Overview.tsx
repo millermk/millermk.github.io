@@ -13,7 +13,7 @@ export default function Overview() {
             <Row>
                 <Col xs="12" md="6" className="pb-4">
                     <Card>
-                        <CardImg top width="100%" src={projectsImage} alt="Card image cap" />
+                        <CardImg top width="100%" src={projectsImage} alt="A person video chatting on a couch with a laptop on her lap" />
                         <CardBody>
                             <CardTitle tag="h5">Projects</CardTitle>
                             <CardText>Research projects past and present.</CardText>
@@ -23,7 +23,7 @@ export default function Overview() {
                 </Col>
                 <Col xs="12" md="6" className="pb-4">
                     <Card>
-                        <CardImg top width="100%" src={publicationsImage} alt="Card image cap" />
+                        <CardImg top width="100%" src={publicationsImage} alt="A wearing headphones and holding a cup of coffee while video chatting" />
                         <CardBody>
                             <CardTitle tag="h5">Publications</CardTitle>
                             <CardText>Papers I've authored and co-authored.</CardText>
@@ -33,7 +33,7 @@ export default function Overview() {
                 </Col>
                 <Col xs="12" md="6" className="pb-4">
                     <Card>
-                        <CardImg top width="100%" src={serviceImage} alt="Card image cap" />
+                        <CardImg top width="100%" src={serviceImage} alt="An audience in an auditorium with a large camera pointed at the stage" />
                         <CardBody>
                             <CardTitle tag="h5">Service</CardTitle>
                             <CardText>Conference, university, and community involvement.</CardText>
@@ -43,7 +43,7 @@ export default function Overview() {
                 </Col>
                 <Col xs="12" md="6" className="pb-4">
                     <Card>
-                        <CardImg top width="100%" src={experienceImage} alt="Card image cap" />
+                        <CardImg top width="100%" src={experienceImage} alt="A computer lab with 6 computers at desks" />
                         <CardBody>
                             <CardTitle tag="h5">Experience</CardTitle>
                             <CardText>Teaching and internship experience.</CardText>

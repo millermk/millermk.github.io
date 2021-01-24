@@ -1,6 +1,6 @@
 export default interface Project {
     name: string;
     description: string;
-    youtubeVideoID?: string;
-    imageName?: string;
+    youtubeVideo?: {videoID: string, title: string};
+    image?: {src: string, alt: string};
 }
