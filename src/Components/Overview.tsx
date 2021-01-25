@@ -54,8 +54,8 @@ export default function Overview() {
                 <Col xs="12" className="pb-4">
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h5">My CV</CardTitle>
-                            <CardText>In addition to the information on this site, you can access my complete CV as a <a href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>pdf download</a>.</CardText>
+                            <CardTitle tag="h5">CV and Contact</CardTitle>
+                            <CardText>In addition to the information on this site, you can access my complete CV as a <a href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>pdf download</a> or contact me <a href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>by email</a> if you'd like to get in touch.</CardText>
                         </CardBody>
                     </Card>
                 </Col>

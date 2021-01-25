@@ -24,7 +24,10 @@ export default function NavBar() {
                             <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/experience">Experience</RouterNavLink></NavLink></NavItem>
                             <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/service">Service</RouterNavLink></NavLink></NavItem>
                         </Nav>
-                        <NavLink href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} className="nav-link-download" download>My CV (pdf)</NavLink>
+                        <Nav navbar>
+                            <NavItem><NavLink><a href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>Email Me</a></NavLink></NavItem>
+                            <NavItem><NavLink><a href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>My CV (pdf)</a></NavLink></NavItem>
+                        </Nav>
                     </Collapse>
                 </Navbar>
             </Container>
