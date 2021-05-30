@@ -8,7 +8,7 @@ export const publications: IPublication[] = [
         authors: ['Matthew K. Miller', 'Martin Dechant', 'Regan L. Mandryk'],
         year: 2021,
         title: 'Meeting You, Seeing Me: The Role of Social Anxiety, Visual Feedback, and Interface Layout in a Get-to-Know-You Task via Video Chat',
-        venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, TO APPEAR',
+        venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery, New York, NY, USA, Article 339, 1–14',
         doi: '10.1145/3411764.3445664',
         type: 'conf-full'
     },
@@ -117,6 +117,13 @@ export const services: IService[] = [
         description: 'Assist with data collection to drive increased diversity in Canadian computing and provide consulting about increasing diversity in CS-CAN efforts.'
     },
     {
+        startYear: 2021,
+        endYear: 2021,
+        org: 'ACM SIGCHI',
+        title: 'Student Volunteer',
+        description: 'Worked with a remote team of SVs to facilitate virtual workshops, demos, and LBW sessions.'
+    },
+    {
         startYear: 2018,
         endYear: 2020,
         org: 'Computer Science Graduate Council',
@@ -194,7 +201,15 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
     {
+        startYear: 2021,
+        endYear: 2021,
+        org: 'Autodesk Research',
+        title: 'Research Intern',
+        description: 'More to share soon!'
+    },
+    {
         startYear: 2014,
+        endYear: 2021,
         org: 'University of Saskatchewan',
         title: 'Teaching Assistant',
         description: 'Taught labs and provided student support for a variety of courses, including data structures, web development, and assembly language programming.'
