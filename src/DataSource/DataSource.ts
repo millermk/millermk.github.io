@@ -5,6 +5,14 @@ import IService from "../Models/Service";
 
 export const publications: IPublication[] = [
     {
+        authors: ['Matthew K. Miller', 'Regan L. Mandryk'],
+        year: 2021,
+        title: 'Meeting with Media: Comparing Synchronous Media Sharing and Icebreaker Questions in Initial Interactions via Video Chat',
+        venue: 'Proceedings of the ACM on Human-Computer Interaction 5, CSCW2, Article 374 (October 2021), 26 pages',
+        doi: '10.1145/3479518',
+        type: 'journal'
+    },
+    {
         authors: ['Matthew K. Miller', 'Martin Dechant', 'Regan L. Mandryk'],
         year: 2021,
         title: 'Meeting You, Seeing Me: The Role of Social Anxiety, Visual Feedback, and Interface Layout in a Get-to-Know-You Task via Video Chat',
@@ -115,6 +123,20 @@ export const services: IService[] = [
         org: 'CS-Can|Info-Can',
         title: 'EDI Task Force Member',
         description: 'Assist with data collection to drive increased diversity in Canadian computing and provide consulting about increasing diversity in CS-CAN efforts.'
+    },
+    {
+        startYear: 2021,
+        endYear: 2021,
+        org: 'ACM CSCW',
+        title: 'Student Volunteer',
+        description: 'Served as a day captain and worked with a remote team of SVs to facilitate virtual workshops.'
+    },
+    {
+        startYear: 2021,
+        endYear: 2021,
+        org: 'ACM CHIPLAY',
+        title: 'Student Volunteer',
+        description: 'Served as a technical moderator, hosting and monitoring Zoom webinars for several conference blocks.'
     },
     {
         startYear: 2021,
