@@ -211,7 +211,8 @@ export const projects: Project[] = [
     },
     {
         name: "Video Chat with Media Sharing",
-        description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups and asynchronously add media from arbitrary URLS, then view the media synchronously during a video call. I'm working to understand how this kind of system can support new and existing relationships.",
+        description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups of friends or family members, asynchronously add media from arbitrary URLS in a group's queue, then view the media synchronously during a video call (see screenshot below). I'm working to understand how this kind of system can support new and existing relationships. In the presentation below, I share findings that show this system is an effective way for new people to get to know each other.",
+        youtubeVideo: {videoID: "PNzP-kf-EBw", title: 'Youtube Video Meeting with Media: Comparing Synchronous Media Sharing and Icebreaker Questions in Initial Interactions via Video Chat'},
         image: {src: 'media-sharing.jpg', alt: 'A screenshot of a video chat system showing three people talking and a YouTube video playing'}
     },
     {
