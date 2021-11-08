@@ -12,7 +12,7 @@ export default function ProjectSummary(props: {project: Project}) {
                 <p>{props.project.description}</p>
             </Col>
             {props.project.image ? [
-                <Col xs="12" md="9" lg="6" key="img"><img className="w-100 mb-2" src={(process.env.PUBLIC_URL || "/") + 'media/' + props.project.image.src} alt={props.project.image.src}></img></Col>,
+                <Col xs="12" md="9" lg="6" key="img"><img className="w-100 mb-2" src={(process.env.PUBLIC_URL || "/") + 'media/' + props.project.image.src} alt={props.project.image.alt}></img></Col>,
                 <Col xs="0" md="3" lg="5" key="postspace" />
             ] : null }
             {props.project.youtubeVideo ? [
