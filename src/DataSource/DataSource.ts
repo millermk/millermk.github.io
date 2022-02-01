@@ -224,6 +224,13 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
     {
+        startYear: 2016,
+        endYear: 2022,
+        org: 'University of Saskatchewan',
+        title: 'Instructor',
+        description: 'Instructor for five courses: Human-Computer Interaction (design, implementation, and evaluation of interfaces; 2x), Implementation of Graphical User Interfaces (theory of interfaces, Android and JavaFS interface programming), and Intro to Computer Organization and Architecture (hardware components, assembly and machine language; 2x).'
+    },
+    {
         startYear: 2021,
         endYear: 2021,
         org: 'Autodesk Research',
@@ -235,14 +242,7 @@ export const experiences: Experience[] = [
         endYear: 2021,
         org: 'University of Saskatchewan',
         title: 'Teaching Assistant',
-        description: 'Taught labs and provided student support for a variety of courses, including data structures, web development, and assembly language programming.'
-    },
-    {
-        startYear: 2016,
-        endYear: 2019,
-        org: 'University of Saskatchewan',
-        title: 'Instructor',
-        description: 'Instructor for four courses: Human-Computer Interaction (design, implementation, and evaluation of interfaces), Implementation of Graphical User Interfaces (theory of interfaces, Android and JavaFS interface programming), and Intro to Computer Organization and Architecture (hardware components, assembly and machine language).'
+        description: 'Taught labs and provided student support for a variety of courses, including human-computer interaction, data structures, web development, and assembly language programming. In 2021, I received a TA of excellence award as a result of student nominations.'
     },
     {
         startYear: 2017,
