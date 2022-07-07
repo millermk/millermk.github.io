@@ -228,7 +228,7 @@ export const experiences: Experience[] = [
         endYear: 2022,
         org: 'Microsoft Research',
         title: 'Research Intern',
-        description: 'Led a multi-stage design process for a video-chat collaboration system. Implemented a user study showing the novel system supports awareness of colleagues\' actions.'
+        description: 'More to share soon!'
     },
     {
         startYear: 2016,
@@ -242,7 +242,7 @@ export const experiences: Experience[] = [
         endYear: 2021,
         org: 'Autodesk Research',
         title: 'Research Intern',
-        description: 'More to share soon!'
+        description: 'Led a multi-stage design process for a video-chat collaboration system. Implemented a user study showing the novel system supports awareness of colleagues\' actions.'
     },
     {
         startYear: 2014,
