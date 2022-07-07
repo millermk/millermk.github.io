@@ -224,6 +224,13 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
     {
+        startYear: 2022,
+        endYear: 2022,
+        org: 'Microsoft Research',
+        title: 'Research Intern',
+        description: 'Led a multi-stage design process for a video-chat collaboration system. Implemented a user study showing the novel system supports awareness of colleagues\' actions.'
+    },
+    {
         startYear: 2016,
         endYear: 2022,
         org: 'University of Saskatchewan',
