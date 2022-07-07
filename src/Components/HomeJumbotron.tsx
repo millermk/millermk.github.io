@@ -22,7 +22,7 @@ export default function HomeJumbotron() {
                         <RouterNavLink className="link-undecorated" to="/">
                             <h1 className="display-3">Matthew Miller</h1>
                         </RouterNavLink>
-                        <p className="lead">Researching <b>interfaces</b> and <b>tools</b> for maintaining connectedness through <b>video chat</b>. Ph.D. Candidate in the Human-Computer Interaction Lab at the University of Saskatchewan.</p>
+                        <p className="lead">Researching <b>interfaces</b> and <b>tools</b> for maintaining connectedness through <b>video chat</b>. Currently, Research Intern with Microsoft Research. Ph.D. graduate of the HCI Lab at the University of Saskatchewan.</p>
                     </Col>
                 </Row>
             </Container>
