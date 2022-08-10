@@ -1,21 +1,23 @@
 import React from 'react';
 import { NavLink as RouterNavLink} from 'react-router-dom';
-import { Col, Container, Jumbotron, Nav, Navbar, NavItem, NavLink, Row } from 'reactstrap';
+import { Col, Container, Nav, NavItem, NavLink, Row } from 'reactstrap';
 
 const headshot = require('../Media/headshot.png').default;
 
 export default function HomeJumbotron() {
     return (
-        <Jumbotron className="p-0" fluid>
+        <div className="bg-light mb-4 p-0">
             <Container>
-                <Navbar className="px-0 justify-content-end mb-3 d-none d-md-flex" light expand="xs">
-                    <Nav navbar>
-                        <NavItem><NavLink><a href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>Email Me</a></NavLink></NavItem>
-                        <NavItem><NavLink><a href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>My CV (pdf)</a></NavLink></NavItem>
-                    </Nav>
-                </Navbar>
+                <Row >
+                    <Col className="px-0 mt-2 d-none d-md-flex justify-content-end" >
+                        <Nav >
+                            <NavItem><NavLink className="nav-link-overrides px-2" href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>Email Me</NavLink></NavItem>
+                            <NavItem><NavLink className="nav-link-overrides px-2" href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>My CV (pdf)</NavLink></NavItem>
+                        </Nav>
+                    </Col>
+                </Row>
                 <Row className="align-items-end">
-                    <Col className="d-none d-md-block" md="4" lg="3">
+                    <Col className="d-none d-md-block" md="4" lg="3" xl="2">
                         <img className="header-img" src={headshot} alt="Headshot of Matthew Miller"/>
                     </Col>
                     <Col md="8" lg="9">
@@ -26,6 +28,6 @@ export default function HomeJumbotron() {
                     </Col>
                 </Row>
             </Container>
-        </Jumbotron>
+        </div>
     );
 }

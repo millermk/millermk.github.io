@@ -15,18 +15,18 @@ export default function NavBar() {
         <Container fluid className="bg-light">
             <Container>
                 <Navbar className="px-0" color="light" light expand="md">
-                    <NavbarBrand className="mr-2"><RouterNavLink to="/">Matthew Miller</RouterNavLink></NavbarBrand>
+                    <NavbarBrand className="mr-2"><RouterNavLink className="nav-link-overrides" to="/">Matthew Miller</RouterNavLink></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={isOpen} navbar>
-                        <Nav navbar className="mr-auto">
-                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/projects">Projects</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/publications">Publications</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/experience">Experience</RouterNavLink></NavLink></NavItem>
-                            <NavItem><NavLink active={true}><RouterNavLink activeClassName="link-active" onClick={close} to="/service">Service</RouterNavLink></NavLink></NavItem>
+                    <Collapse isOpen={isOpen} navbar className="justify-content-between">
+                        <Nav navbar className="mr-auto pr-2">
+                            <NavItem><NavLink active={true}><RouterNavLink className="nav-link-overrides" activeClassName="nav-link-overrides-active" onClick={close} to="/projects">Projects</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink className="nav-link-overrides" activeClassName="nav-link-overrides-active" onClick={close} to="/publications">Publications</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink className="nav-link-overrides" activeClassName="nav-link-overrides-active" onClick={close} to="/experience">Experience</RouterNavLink></NavLink></NavItem>
+                            <NavItem><NavLink active={true}><RouterNavLink className="nav-link-overrides" activeClassName="nav-link-overrides-active" onClick={close} to="/service">Service</RouterNavLink></NavLink></NavItem>
                         </Nav>
                         <Nav navbar>
-                            <NavItem><NavLink><a href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>Email Me</a></NavLink></NavItem>
-                            <NavItem><NavLink><a href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>My CV (pdf)</a></NavLink></NavItem>
+                            <NavItem><NavLink className={"nav-link-overrides link-primary pr-2"} href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>Email Me</NavLink></NavItem>
+                            <NavItem><NavLink className={"nav-link-overrides link-primary pr-2"} href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>My CV (pdf)</NavLink></NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
