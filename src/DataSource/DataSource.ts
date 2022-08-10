@@ -5,6 +5,13 @@ import IService from "../Models/Service";
 
 export const publications: IPublication[] = [
     {
+        authors: ['Matthew K. Miller'],
+        year: 2022,
+        title: 'Supporting Relationships with Video Chat',
+        venue: 'Doctoral thesis. University of Saskatchewan',
+        link: {href: 'https://harvest.usask.ca/handle/10388/14074', text: 'U of S Harvest'},
+        type: 'thesis'
+    },{
         authors: ['Matthew K. Miller', 'Regan L. Mandryk'],
         year: 2021,
         title: 'Meeting with Media: Comparing Synchronous Media Sharing and Icebreaker Questions in Initial Interactions via Video Chat',
