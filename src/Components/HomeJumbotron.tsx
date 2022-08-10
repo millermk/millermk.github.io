@@ -1,8 +1,7 @@
 import React from 'react';
 import { NavLink as RouterNavLink} from 'react-router-dom';
 import { Col, Container, Nav, NavItem, NavLink, Row } from 'reactstrap';
-
-const headshot = require('../Media/headshot.png').default;
+import headshot from'../Media/headshot.png';
 
 export default function HomeJumbotron() {
     return (
@@ -11,8 +10,8 @@ export default function HomeJumbotron() {
                 <Row >
                     <Col className="px-0 mt-2 d-none d-md-flex justify-content-end" >
                         <Nav >
-                            <NavItem><NavLink className="nav-link-overrides px-2" href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>Email Me</NavLink></NavItem>
-                            <NavItem><NavLink className="nav-link-overrides px-2" href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>My CV (pdf)</NavLink></NavItem>
+                            <NavItem><NavLink className="nav-link-overrides ps-0 pe-3" href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>Email Me</NavLink></NavItem>
+                            <NavItem><NavLink className="nav-link-overrides ps-0 pe-3" href={(process.env.PUBLIC_URL || "/") + 'matthew-miller-cv.pdf'} download>My CV (pdf)</NavLink></NavItem>
                         </Nav>
                     </Col>
                 </Row>

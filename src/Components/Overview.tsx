@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
 
-const publicationsImage = require('../Media/publications.jpg').default;
-const projectsImage = require('../Media/projects.jpg').default;
-const serviceImage = require('../Media/service.jpg').default;
-const experienceImage = require('../Media/experience.jpg').default;
+import publicationsImage from '../Media/publications.jpg';
+import projectsImage from '../Media/projects.jpg';
+import serviceImage from '../Media/service.jpg';
+import experienceImage from '../Media/experience.jpg';
 
 export default function Overview() {
     return (

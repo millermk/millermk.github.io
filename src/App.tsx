@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Experiences from './Components/Experiences';
 import HomeJumbotron from './Components/HomeJumbotron';
@@ -16,17 +16,17 @@ function App() {
         <div className="App">
             <Router basename={process.env.PUBLIC_URL || "/"}>
                 <ScrollToTop />
-                <Switch>
-                    <Route path="/" exact={true} component={HomeJumbotron}/>
-                    <Route path="/" component={NavBar}/>
-                </Switch>
-                <Switch>
-                    <Route path="/" exact={true} component={Overview}/>
-                    <Route path="/projects" exact={true}><Projects projects={projects}/></Route>
-                    <Route path="/publications" exact={true}><Publications publications={publications}/></Route>
-                    <Route path="/experience" exact={true}><Experiences experiences={experiences}/></Route>
-                    <Route path="/service" exact={true}><Services services={services}/></Route>
-                </Switch>
+                <Routes>
+                    <Route path="/" element={<HomeJumbotron/>}/>
+                    <Route path="/*" element={<NavBar/>}/>
+                </Routes>
+                <Routes>
+                    <Route path="/" element={<Overview/>}/>
+                    <Route path="/projects" element={<Projects projects={projects}/>}/>
+                    <Route path="/publications" element={<Publications publications={publications}/>}/>
+                    <Route path="/experience" element={<Experiences experiences={experiences}/>}/>
+                    <Route path="/service" element={<Services services={services}/>}/>
+                </Routes>
             </Router>
         </div>
     );

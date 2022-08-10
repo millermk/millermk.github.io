@@ -6,7 +6,7 @@ import PublicationSummary from './PublicationSummary';
 export default function Publications(props: {publications: Publication[]}) {
     return (
         <Container className="mt-2">
-            {props.publications.map(p => (<PublicationSummary publication={p} />))}
+            {props.publications.map((p, i) => (<PublicationSummary publication={p} key={i} />))}
         </Container>
     );
 }
