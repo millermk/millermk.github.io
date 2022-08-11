@@ -6,6 +6,7 @@ import publicationsImage from '../Media/publications.jpg';
 import projectsImage from '../Media/projects.jpg';
 import serviceImage from '../Media/service.jpg';
 import experienceImage from '../Media/experience.jpg';
+import portfolioImage from '../Media/portfolio.jpg';
 
 export default function Overview() {
     return (
@@ -48,6 +49,16 @@ export default function Overview() {
                             <CardTitle tag="h5">Experience</CardTitle>
                             <CardText>Teaching and internship experience.</CardText>
                             <Link to="/experience">See more</Link>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col xs="12" md="6" className="pb-4">
+                    <Card>
+                        <CardImg top width="100%" src={portfolioImage} alt="A sketch of a user interface" />
+                        <CardBody>
+                            <CardTitle tag="h5">Portfolio</CardTitle>
+                            <CardText>Design and programming experience.</CardText>
+                            <Link to="/portfolio">See more</Link>
                         </CardBody>
                     </Card>
                 </Col>

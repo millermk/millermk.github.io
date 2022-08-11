@@ -5,11 +5,12 @@ import Experiences from './Components/Experiences';
 import HomeJumbotron from './Components/HomeJumbotron';
 import NavBar from './Components/NavBar';
 import Overview from './Components/Overview';
+import PortfolioItems from './Components/PortfolioItems';
 import Projects from './Components/Projects';
 import Publications from './Components/Publications';
 import ScrollToTop from './Components/ScrollToTop';
 import Services from './Components/Services';
-import { experiences, projects, publications, services } from './DataSource/DataSource';
+import { experiences, projects, publications, services, portfolioItems } from './DataSource/DataSource';
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/publications" element={<Publications publications={publications}/>}/>
                     <Route path="/experience" element={<Experiences experiences={experiences}/>}/>
                     <Route path="/service" element={<Services services={services}/>}/>
+                    <Route path="/portfolio" element={<PortfolioItems portfolioItems={portfolioItems}/>}/>
                 </Routes>
             </Router>
         </div>

@@ -1,0 +1,15 @@
+.carousel:not(:hover) .carousel-control-prev {
+    opacity: 10%;
+}
+
+.carousel:not(:hover) .carousel-control-next {
+    opacity: 10%;
+}
+
+.carousel:not(:hover) .carousel-indicators button {
+    opacity: 10%;
+}
+
+.carousel:not(:hover) .carousel-indicators button.active {
+    opacity: 30%;
+}

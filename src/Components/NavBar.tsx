@@ -17,7 +17,7 @@ export default function NavBar() {
         <Container fluid className="bg-light">
             <Container>
                 <Navbar className="px-0" color="light" light expand="md">
-                    <NavbarBrand className="mr-2"><RouterNavLink className="nav-link-overrides" to="/">Matthew Miller</RouterNavLink></NavbarBrand>
+                    <NavbarBrand tag="span" className="mr-2"><RouterNavLink className="nav-link-overrides" to="/">Matthew Miller</RouterNavLink></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar className="justify-content-between">
                         <Nav navbar className="mr-auto">
@@ -25,6 +25,7 @@ export default function NavBar() {
                             <NavItem className="my-1"><RouterNavLink className={getRouterNavLinkClass} onClick={close} to="/publications">Publications</RouterNavLink></NavItem>
                             <NavItem className="my-1"><RouterNavLink className={getRouterNavLinkClass} onClick={close} to="/experience">Experience</RouterNavLink></NavItem>
                             <NavItem className="my-1"><RouterNavLink className={getRouterNavLinkClass} onClick={close} to="/service">Service</RouterNavLink></NavItem>
+                            <NavItem className="my-1"><RouterNavLink className={getRouterNavLinkClass} onClick={close} to="/portfolio">Portfolio</RouterNavLink></NavItem>
                         </Nav>
                         <Nav navbar>
                             <NavItem className="my-1"><NavLink className={"nav-link-overrides link-primary p-0 pe-3"} href={/* eslint-disable no-useless-concat*/"mail"+"to:millermk"+"@outlook.com"/* eslint-enable no-useless-concat*/} download>Email Me</NavLink></NavItem>

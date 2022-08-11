@@ -1,4 +1,5 @@
 import Experience from "../Models/Experience";
+import PortfolioItem from "../Models/PortfolioItem";
 import Project from "../Models/Project";
 import IPublication from "../Models/Publication";
 import IService from "../Models/Service";
@@ -218,7 +219,7 @@ export const projects: Project[] = [
     },
     {
         name: "Video Chat with Media Sharing",
-        description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups of friends or family members, asynchronously add media from arbitrary URLS in a group's queue, then view the media synchronously during a video call (see screenshot below). I'm working to understand how this kind of system can support new and existing relationships. In the presentation below, I share findings that show this system is an effective way for new people to get to know each other.",
+        description: "I worked to develop a novel system for synchronously sharing multiple types of online media while video chatting. The system allows people to create groups of friends or family members, asynchronously add media from arbitrary URLs in a group's queue, then view the media synchronously during a video call (see screenshot below). I'm working to understand how this kind of system can support new and existing relationships. In the presentation below, I share findings that show this system is an effective way for new people to get to know each other.",
         youtubeVideo: {videoID: "PNzP-kf-EBw", title: 'Youtube Video Meeting with Media: Comparing Synchronous Media Sharing and Icebreaker Questions in Initial Interactions via Video Chat'},
         image: {src: 'media-sharing.jpg', alt: 'A screenshot of a video chat system. On the left side of the interface, three people\'s video feeds are displayed in a grid. On the right side, a YouTube video is playing.'}
     },
@@ -292,5 +293,65 @@ export const experiences: Experience[] = [
         org: 'University of Saskatchewan',
         title: 'Research Assistant',
         description: 'Developed Kinect games for wheelchair-based interaction. Contributed to development of a synchronous game played over a video chat system.'
+    }
+]
+
+export const portfolioItems: PortfolioItem[] = [
+    {
+        name: 'Talk About',
+        extendedName: 'A Video Chat Platform with Media Sharing',
+        description: 'My experiences hanging out with friends in video calls provided the initial inspiration for this project. This custom video chat platform allows people to collect different kinds of online media (e.g., images, videos, or articles) and view them together while in a video call.',
+        images: [
+            {
+                src: 'media-sharing-queue.jpg',
+                alt: 'A screenshot of a media queue. Each media item has a thumbnail. The users\'s own items have bump, preview, and delete buttons while their friends\' items have their thumbnails blurred. A text box at the bottom allows new URLs to be pasted.',
+                description: [
+                    'People can make different groups on the site and switch between them',
+                    'Group video calls can be tough to arrange, so we considered the whole lifecycle of a video call',
+                    'Each group has a media queue, even when a call is not active people can add items to the queue by dragging and dropping images, pasting images, or uploading files',
+                    'Companion mobile apps allow the user to share items from other apps into their queues'
+                ]
+            },
+            {
+                src: 'media-sharing-call.jpg',
+                alt: 'A screenshot of a video chat system. On the left side of the interface, three people\'s video feeds are displayed in a grid. On the right side, a YouTube video is playing.',
+                description: [
+                    'During the call, people can view items from the queue one at a time',
+                    'Everything stays synchronized: pressing the up arrow below the current media item switches everyone to the next item and switching images in a gallery or scrubbing in a video bring everyone to the same spot',
+                    'People can continue adding items during the call'
+                ]
+            }
+        ]
+    },
+    {
+        name: 'MIPS Reference',
+        extendedName: 'An Assembly Language Programming Resource',
+        description: 'While teaching, I noticed that students learning MIPS assembly language face challenges including unfamiliar terminology, not knowing what features the language includes, and a lack of comprehensive information sources. Students often struggled to find the right website, textbook chapter, or page of notes to check while working on assignments, so this website is designed to provide a complete and convenient source.',
+        images: [
+            {
+                src: 'mips-home.png',
+                alt: 'Screenshot of a webpage with links to the following six topics: instruction types, instructions, syscalls, registers, and guides',
+                description: 'The homepage has six categories of information. These are organized by how frequently they are needed while working on assignments.'
+            },
+            {
+                src: 'mips-search.png',
+                alt: "Screenshot of a webpage showing a search for the term 'mult' and several results including one labeled exact match.",
+                description: [
+                    'On other sites, students often use ctrl-f to find the right part of a reference.',
+                    "Using ctrl-f can be ineffective (e.g., because the 'copy' instruction is actually called 'move') so MIPS Reference includes a built-in search that uses hand-tuned tags and plain-text descriptions for better results",
+                    "An Exact Match feature promotes the correct result when the search term is a valid instruction name"
+                ]
+            },
+            {
+                src: 'mips-instruction.png',
+                alt: 'Screenshot of a webpage showing how the MIPS Add instruction works. The page uses a table format to number the bits of the instruction from 0 to 31 and give the binary value of each.',
+                description: 'The instruction detail page shows how to use an instruction and what to expect. At the bottom of the page, the binary encoding of the instruction is shown in a large layout featuring different type sizes—this is much more readable than a typical pdf or paper reference format.'},
+            {
+                src: 'mips-syscalls.png',
+                alt: 'Screenshot showing a list of possible syscalls such as printing and reading integers or floats on the console. The code for each syscall is highlighted in blue while the input or output registers are shown in pink.',
+                description: "The syscalls page includes information on special functionality provided by the operating system. Like the instructions page, each item has a 'See more' link for details. However, the large number shown in blue and the input and output specifications shown in pink surface all the commonly needed information without requiring an additional navigation."
+            }
+        ],
+        link: 'https://millermk.com/mips-reference/'
     }
 ]
