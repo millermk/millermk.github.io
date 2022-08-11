@@ -1,8 +1,10 @@
-.link-download {
+.router-link-overrides {
     cursor: pointer;
-    text-decoration: default;
+    text-decoration: none;
+    color: inherit;
 }
 
-.link-download:hover {
+.router-link-overrides:hover {
     text-decoration: underline;
+    color: inherit;
 }
