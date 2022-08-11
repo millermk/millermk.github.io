@@ -6,7 +6,7 @@ import YoutubeEmbed from './YoutubeEmbed';
 
 export default function ProjectSummary(props: {project: Project}) {
     return (
-        <Row className="bg-light mb-2 py-2 px-4">
+        <Row className="bg-light mb-2 p-2">
             <Col xs={12}>
                 <h3>{props.project.name}</h3>
                 <p>{props.project.description}</p>
